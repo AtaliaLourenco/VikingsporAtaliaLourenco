@@ -1,0 +1,538 @@
+
+
+body {
+	font-family: 'Noto Serif', serif;
+	background-color: #dddddd;
+	color: rgba(0,0,0,1);
+	
+
+}
+
+div#interface {
+	width: 1000px;
+	background-color: #f4f4f4; 
+	margin: 20px auto 0px auto; 
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 100px;
+	
+}
+
+div.video1 {
+	margin-bottom:30px;
+	margin-left: -50px;
+	margin-right: 0px; 
+	margin-top:10px;
+}
+
+div.video2 {
+	margin-left: 30px;
+	margin-right: -10px; 
+}
+
+p{
+			text-align:justify;
+			text-indent:30px;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+/*formataçao imagem cabecalho*/
+
+header#cabecalho img#icone {
+	position: absolute;
+	left: 870px;
+	top: 90px;
+}
+
+header#cabecalho {
+	border-bottom: 3px silver solid;
+	height: 400px;
+	margin-top:-109px;
+	margin-bottom:10px;
+	margin-left:-99px;
+	margin-right:-99px;
+	background-image: url("file:///C:/Users/thali/OneDrive/%C3%81rea%20de%20Trabalho/imagens/cortada.jpg");
+	background-repeat: no-repeat;
+}
+
+header#cabecalho h1 {
+	font-family: Footlight MT Light, sans-serif;
+	font-size: 35pt;
+	color: #bb1717;
+	text-align: left;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+	padding: 20px;
+	padding-left:30px;
+	margin-top: 10px;
+	margin-left: -15px;
+	
+	
+}
+
+header#cabecalho h2 {
+	font-family: 'Noto Serif', serif;
+	color: #bb1717;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+	font-size: 15pt;
+	padding: 170px;
+	margin-top: 100px;
+	margin-bottom: -10px;
+	margin-left:-140px;
+	margin-right:-170px;
+	
+}
+
+/*formatação de imagem com legendas*/
+
+figure.foto-legenda {
+	position: relative;
+	margin-left: -80px;
+	margin-right:10px;
+	border: 1px solid white;
+	box-shadow: 1px 1px 4px black; 
+	
+	
+}
+figure.foto-legenda img {
+	width: 100%;
+	height: 100%;
+	
+	
+}
+
+figure.foto-legenda figcaption {
+	opacity:0;
+	position: absolute;
+	top: 110px;
+	background-color: rgba (0,0,1,1);
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 80px;
+	box-sizing: border-box; 
+	transition: opacity 1s;
+	font-family: 'Noto Serif', serif;
+	
+	
+}
+
+figure.foto-legenda:hover figcaption {
+	opacity: 1;
+
+}
+
+/**formatação do Menu **/
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 15px;
+	left: 800px;
+	
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+	
+}
+
+nav#menu li:hover {
+	background-color: #ed0000;
+	
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color:#000000;
+	text-decoration:none;	
+}
+
+nav#menu a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+section#corpo {
+	display: block;
+	width: 600px;
+	float: left;
+	border-right: 0px solid #c0b0b0;
+	
+
+}
+
+article#noticia-principal h2{
+	font-size: 20pt;
+	font-weight: Boldest;
+	text-transform: uppercase;
+	color: black;
+	padding: 5px 5px 5px 10px;
+	margin: 20px 0px 10px 0px;
+	background-color: silver;
+	background-image: url("https://www.significadodossonhos.inf.br/wp-content/uploads/2016/08/sonhar-com-sangue.png");
+	background-position: right;
+	margin-left:-70px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+
+
+}
+
+header#cabecalho-artigo h1 {
+	font-size: 30pt;
+	color: #bb1717; 
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+	margin-top:20px;
+	margin-bottom:10px;
+	margin-left:-70px;
+	
+	
+}
+
+
+header#cabecalho-artigo h4 {
+	font-size: 10pt;
+	color: #787878; 
+	background-color: #f4f4f4;
+	margin-bottom: -10px;
+	margin-top: 0px;
+	margin-left:-70px;
+	font-family: 'Noto Serif', serif;
+	
+
+}
+
+article#noticia-principal p {
+	margin-left:-70px;
+}
+header#cabecalho-artigo h3 {
+	text-align:right;
+	font-size: 10pt;
+	color: #787878; 
+	margin-top: -10px;
+	margin-left:-700px;
+}
+
+
+table#tabelaspec{
+	border: 2px solid #d1d0d0;
+	border-spacing: -1px;
+	margin-left: -70px;
+	margin-right: auto:
+	
+}
+table#tabelaspec td {
+	border: 2px solid #d1d0d0;
+	padding: 10px; 
+	text-align: center;	
+}
+
+table#tabelaspec td.ce {
+	color: black;
+	background-color: #d1d0d0;
+	vertical-align: top;
+	font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+	font-family: 'Noto Serif', serif;
+}
+
+table#tabelaspec caption {
+	color: #bb1717;
+	font-size: 15pt;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+aside#lateral {
+	display: block;
+	width: 400px; 
+	float: right;
+	background-color: #e5e5e5;
+	padding: 20px;
+	margin-top: 50px;
+	margin-right:10px;
+	margin-right:-70px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,.6)
+}
+
+aside#lateral h2 {
+	font-family: 'Noto Serif', serif;
+	background-color: silver;
+	padding: 5px 5px 5px 10px;
+	margin: 10px 0px 10px 0px;
+	font-size: 15pt;
+	margin-right: 0px;
+	
+}
+
+
+footer#rodape {
+	clear: both;
+	border-top: 3px solid silver;
+}
+
+footer#rodape p {
+	text-align: center;
+}
+
+article#temporadas h2{
+	font-size: 20pt;
+	color: black;
+	padding: 5px 5px 5px 10px;
+	margin: 20px 0px 10px 0px;
+	background-color: silver;
+	background-image: url("https://www.significadodossonhos.inf.br/wp-content/uploads/2016/08/sonhar-com-sangue.png");
+	background-position: right;
+	margin-left:-50px;
+	margin-right:10px;
+	font-family: 'Noto Serif', serif;
+	font-weight: Boldest;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+
+
+}
+	
+article#temporadas p {
+	margin-left:-50px;
+	font-family: 'Noto Serif', serif;
+	margin-right:10px;
+}
+
+article#inicio h4{
+	font-size: 10pt;
+	color: #787878; 
+	background-color: #f4f4f4;
+	margin-bottom: -10px;
+	margin-top: 0px;
+	margin-left:-70px;
+}
+
+article#inicio h1{
+	font-family: 'Noto Serif', serif;
+	font-size: 30pt;
+	color: #bb1717;
+	text-align: left;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+	padding: 10px;
+	padding-left:10px;
+	margin-top: 10px;
+	margin-left: -80px;
+}
+
+article#inicio h3{
+	text-align:right;
+	font-size: 10pt;
+	color: #787878; 
+	margin-top: -40px;
+	margin-left: -700px;
+	margin-right: 200px;
+	
+}
+
+aside#lateral2 {
+	display: block;
+	width: 250px; 
+	float: right;
+	background-color: #e5e5e5;
+	padding: 10px;
+	margin-top: 50px;
+	margin-right:10px;
+	margin-right:-70px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,.6)
+}
+
+section#corpo2 {
+	display: block;
+	width: 750px;
+	float: left;
+	border-right: 0px solid #c0b0b0;
+	
+
+}
+
+figure.tempo-foto {
+	position: center;
+	margin-left: -50px;
+	margin-right:50px;
+	border: 0px solid white;
+	box-shadow: 0px 0px 10px black;
+	
+}
+aside#lateral2 h6{
+	font-family: 'Noto Serif', serif;
+	background-color: silver;
+	padding: 1px 1px 1px 1px;
+	margin: 1px 10px 10px 1px;
+	font-size: 12pt;
+	margin-right: 0px;
+}
+
+article#fotosga h1 span{
+	opacity:0;
+}
+
+article#fotosga h1:hover{
+	-webkit-transform:scale(2.5);
+}
+
+article#fotosga{
+	width: 1000px;
+	margin:-10 auto;
+	padding: 0px;
+	overflow: hidden;
+	list-style:none;
+	
+}
+
+article#fotosga h1 {
+	float:left;
+	width:300px;
+	height:300px;
+	margin:2px;
+	border:5px solid white;
+	background-color: silver;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all 1s ease-in;
+	
+}
+
+article#fotosga h1#foto1:hover{
+	background-position: -10px 90px;
+	background-size: 400px 300px;
+}
+
+article#fotosga h1#foto2:hover{
+	background-position: 0px 90px;
+	background-size: 300px 250px;
+	
+}
+article#fotosga h1#foto3:hover{
+	background-position: -70px 90px;
+	background-size: 500px 300px;
+}
+article#fotosga h1#foto4:hover{
+	background-position: -30px 0px;
+	background-size: 500px 300px;
+}
+article#fotosga h1#foto5:hover{
+	background-position: -160px 0px;
+	background-size: 700px 400px;
+}
+article#fotosga h1#foto6:hover{
+	background-position: -150px 0px;
+	background-size: 400px 400px;
+}
+article#fotosga h1#foto7:hover{
+	background-position: 90px -100px;
+	background-size: 700px 500px;
+}
+article#fotosga h1#foto8:hover{
+	background-position: 0px 0px;
+	background-size: 400px 300px;
+}
+article#fotosga h1#foto9:hover{
+	background-position: -150px 0px;
+	background-size: 400px 300px;
+}
+
+article#fotosga h1#foto1{
+	background: url("https://wallpaperaccess.com/full/5656920.jpg");
+	background-position: 00% 100%;
+	background-size: 500px 300px;
+	background-color: #ffffff;
+}
+article#fotosga h1#foto2{
+	background: url("https://wallpaperaccess.com/full/3424313.jpg");
+	background-position: 40% 10%;
+	background-size: 400px 300px;
+	background-color: #ffffff;
+}
+article#fotosga h1#foto3{
+	background: url("https://wallpaperaccess.com/full/2533943.jpg");
+	background-position: 10% 10%;
+	background-size: 500px 300px;
+	background-color: #ffffff;
+}
+article#fotosga h1#foto4{
+	background: url("https://wallpaperaccess.com/full/5656856.jpg");
+	background-position: 50% 10%;
+	background-size: 500px 400px;
+	background-color: #ffffff;
+}
+
+article#fotosga h1#foto5{
+	background: url("https://wallpaperaccess.com/full/4864628.jpg");
+	background-position: 40% 10%;
+	background-size: 500px 300px;
+	background-color: #ffffff;
+}
+article#fotosga h1#foto6{
+	background: url("https://www.metroworldnews.com.br/resizer/C9_vjJfrISN2uvsJcSZ3lakQofs=/1024x1024/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/WJWK3VWKBNHNFOC6TKSD3USVP4.jpg");
+	background-position: 70% 10%;
+	background-size: 500px 500px;
+	background-color: #ffffff;
+}
+article#fotosga h1#foto7{
+	background: url("https://wallpaperaccess.com/full/4122490.jpg");
+	background-position: 50% 10%;
+	background-size: 700px 500px;
+	background-color: #ffffff;
+}
+article#fotosga h1#foto8{
+	background: url("https://wallpaperaccess.com/full/5656873.jpg");
+	background-position: 50% 10%;
+	background-size: 700px 500px;
+	background-color: #ffffff;
+}
+article#fotosga h1#foto9{
+	background: url("https://wallpaperaccess.com/full/5656894.jpg");
+	background-position: 70% 10%;
+	background-size: 700px 500px;
+	background-color: #ffffff;
+}
+
+
+form {
+	width: 500px;
+	margin: -10px;
+}
+
+input, textarea {
+	font-family: 'Noto Serif', serif;
+	font-size:15px;
+}
+input:hover, textarea:hover {
+	background-color: #dddddd;
+	
+}
+legend {
+	font-family: 'Noto Serif', serif;
+	font-size:20px;
+	color: blue;
+}
+
+fieldset {
+	border-color: #cecece;
+	margin: 20px; 
+	margin-bottom: 50px;
+}
